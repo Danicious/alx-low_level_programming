@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - Prints numbers in base 16
+ * main - Print numbers in base 16
  * Return: 0
  */
 int main(void)
@@ -11,11 +11,11 @@ int main(void)
 	int n;
 	char lc;
 
-	for (n = 0; n < 10; n++)
+	for (n = 0; n < 16; n++)
 	{
-		putchar((n % 10) + '0');
+		putchar((n % 16) + '0');
 	}
-	for (lc = 'a'; la <= 'f'; la++)
+	for (lc = 'a'; la < 'f'; lc++)
 	{
 		putchar(lc);
 	}
