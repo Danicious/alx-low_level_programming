@@ -3,14 +3,14 @@
 # include <time.h>
 
 /**
- * main - LLowercase Alphabets print in reverse
+ * main - Print Lowercase Alphabets in reverse
  * Return: 0
  */
 int main(void)
 {
 	char lc;
 
-	for (lc = 'z'; lc <= 'a'; lc--)
+	for (lc = 'z'; lc >= 'a'; lc--)
 	{
 		putchar(lc);
 	}
