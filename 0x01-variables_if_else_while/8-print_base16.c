@@ -11,9 +11,9 @@ int main(void)
 	int n;
 	char lc;
 
-	for (n = 0; n < 16; n++)
+	for (n = 0; n < 10; n++)
 	{
-		putchar((n % 16) + '0');
+		putchar((n % 10) + '0');
 	}
 	for (lc = 'a'; lc < 'f'; lc++)
 	{
