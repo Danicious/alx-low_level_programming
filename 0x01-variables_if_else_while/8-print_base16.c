@@ -15,7 +15,7 @@ int main(void)
 	{
 		putchar((n % 16) + '0');
 	}
-	for (lc = 'a'; la < 'f'; lc++)
+	for (lc = 'a'; lc < 'f'; lc++)
 	{
 		putchar(lc);
 	}
