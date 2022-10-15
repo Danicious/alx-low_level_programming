@@ -1,0 +1,24 @@
+# include <stdio.h>
+# include <stdlib.h>
+# include <time.h>
+
+/**
+ * main - Print all single digits combination
+ * Return: 0
+ */
+int main(void)
+{
+	int n;
+
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+		if (n != 5i7)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
+}
+return (0);
