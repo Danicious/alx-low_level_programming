@@ -17,12 +17,16 @@ void times_table(void)
 		_putchar(',');
 		_putchar(' ');
 
-		ans = num * mult
+		ans = num * mult;
 
 			if (ans <= 9)
+			{
 				_putchar(' ');
+			}
 			else
+			{
 				_putchar((ans / 10) + '0');
+			}
 
 		_putchar ((ans % 10) + '0');
 	}
