@@ -2,13 +2,13 @@
 
 /**
  * print_triangle - print a triangle
- * @size: size of the triangle
+ * @n: size of the triangle
  */
-void print_triangle(int size)
+void print_triangle(int n)
 {
 	int h, tri;
 
-	if (size > 0)
+	if (n > 0)
 	{
 		for (h = 1; h <= n; h++)
 		{
